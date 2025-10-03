@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format roughly follows Keep a Changelog principles.
 
+## [Unreleased]
+_Placeholder section for upcoming changes._
+
+## [0.1.2] - 2025-10-03
+_Placeholder section for upcoming changes._
+
 ## [0.1.0] - 2025-10-03
 Initial public release.
 

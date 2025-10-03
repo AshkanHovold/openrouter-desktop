@@ -1,6 +1,6 @@
 {
   "name": "openrouter-electron-app",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "type": "module",
   "description": "Electron + Vite + React + Tailwind desktop client for OpenRouter API",
