@@ -1,6 +1,6 @@
 {
   "name": "openrouter-electron-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "type": "module",
   "description": "Electron + Vite + React + Tailwind desktop client for OpenRouter API",
@@ -25,8 +25,13 @@
     "build:electron": "node scripts/build-electron.js",
     "dist": "npm run build && electron-builder --publish never",
     "dist:all": "npm run build && electron-builder -mwl --publish never",
-  "release": "npm run build && electron-builder -mwl",
-  "release:github": "npm run build && electron-builder -mwl --publish always",
+    "release": "npm run build && electron-builder -mwl",
+    "release:github": "npm run build && electron-builder -mwl --publish always",
+    "tag:current": "bash scripts/release/tag-current.sh",
+    "tag:patch": "bash scripts/release/bump-and-tag.sh patch",
+    "tag:minor": "bash scripts/release/bump-and-tag.sh minor",
+    "tag:major": "bash scripts/release/bump-and-tag.sh major",
+    "tag:retag": "bash scripts/release/retag-latest.sh vLATEST",
     "lint": "eslint --ext .ts,.tsx src",
     "typecheck": "tsc --noEmit",
     "preview": "vite preview"
