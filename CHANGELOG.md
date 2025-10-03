@@ -7,6 +7,9 @@ The format roughly follows Keep a Changelog principles.
 ## [Unreleased]
 _Placeholder section for upcoming changes._
 
+## [0.1.3] - 2025-10-03
+_Placeholder section for upcoming changes._
+
 ## [0.1.2] - 2025-10-03
 _Placeholder section for upcoming changes._
 
