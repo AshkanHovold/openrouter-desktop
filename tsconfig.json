@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "types": ["node", "electron"],
+    "lib": ["ES2022", "DOM"],
+  },
+  "include": ["src", "vite.config.ts"],
+  "exclude": ["dist", "dist-electron", "node_modules"]
+}

@@ -1,0 +1,30 @@
+appId: com.openrouter.desktop
+productName: OpenRouter Desktop
+files:
+  - dist/**
+  - dist-electron/**
+  - package.json
+extraMetadata:
+  main: dist-electron/main.cjs
+mac:
+  category: public.app-category.productivity
+  target:
+    - dmg
+    - zip
+win:
+  target:
+    - nsis
+linux:
+  target:
+    - AppImage
+    - deb
+  category: Utility
+nsis:
+  oneClick: true
+  perMachine: false
+  allowToChangeInstallationDirectory: false
+publish:
+  provider: github
+  releaseType: release
+  owner: AshkanHovold
+  repo: openrouter-desktop
